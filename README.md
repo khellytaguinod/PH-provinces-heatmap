@@ -24,7 +24,7 @@ There are two project folder from the repository
 > PH HeatMap Openode ( configured to deploy online using the openode module )
 
 2. Choose one folder from the repository
-3. Inside the project folder run `npm install`  using command/terminal prompt.
+3. Inside the project folder run `npm install`  using command/terminal prompt to install its dependencies.
 4. Follow this [Google documentation](https://developers.google.com/sheets/api/quickstart/nodejs) **Step 1** to obtain a `client_secret.json` file.
 5. Put the `client_secret.json` inside the selected project folder.
 6. Make a duplicate from this [formated google spreadsheet](https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
@@ -47,7 +47,7 @@ let sheetID = "spreadsheetID";
 ```
 
 3. Run `openode deploy` using command/terminal prompt.
-4. The prompt will ask you to log in.
+4. The first time you run the openode command, it will prompt you to authorize access.
 5. Log in with your openode credentials.
 6. Type a link address for the openode to use for the web app.
 7. Wait for the openode to deploy the web app and console log a “ success “ msg.
