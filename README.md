@@ -29,7 +29,7 @@ There are two project folder from the repository
 6. Make a duplicate from this [formated google spreadsheet](https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
 
 ## Run & Test Locally
-1. Open index.js and paste in the ```javascript let sheetID = "spreadsheetIDhere" ``` with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
+1. Open index.js and paste in the `javascript let sheetID = "spreadsheetIDhere" ` with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
 2. Run node index.js using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
 
