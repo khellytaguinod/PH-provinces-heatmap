@@ -32,7 +32,8 @@ There are two project folder from the repository
 ## Run & Test Locally
 1. Open `index.js` and paste the spreadsheetID with the ID from your duplicated spreadsheet. ([Need help with the ID?](https://developers.google.com/sheets/api/guides/concepts))
 ```js
-let sheetID = "spreadsheetID";```
+let sheetID = "spreadsheetID";
+```
 
 2. Run `node index.js` using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
@@ -42,7 +43,8 @@ let sheetID = "spreadsheetID";```
 1. You must have an openode account to deploy and run the web app.
 2. Open `app.js` and  index.js and paste the spreadsheetID with the ID from your duplicated spreadsheet. ([Need help with the ID?](https://developers.google.com/sheets/api/guides/concepts))
 ```js
-let sheetID = "spreadsheetID";```
+let sheetID = "spreadsheetID";
+```
 
 3. Run `openode deploy` using command/terminal prompt.
 4. The prompt will ask you to log in.
