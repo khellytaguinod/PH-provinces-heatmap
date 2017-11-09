@@ -51,16 +51,11 @@
             .then(response => response.json())
             .then(result => result.content.map(element => {
 
-               let col2header = (Object.keys(element)[1]);
-               let col3header = (Object.keys(element)[2]);
-
-
+               let col2header = (Object.keys(element)[1])
+               let col3header = (Object.keys(element)[2])
                let provName = `${element.province}`
                let provinfo = `${element[col2header]}`
                let provColor = `${element[col3header]}`
-
-               // console.log(provinfoA)
-
 
                return {provName, provinfo, col2header, provColor};
 
@@ -95,7 +90,6 @@
           };  // end of fetch
 
           let createShape = (provname, coordinates, posLat, posLong, provinfo, title, provinceColor) => {
-
            let shape = new google.maps.Polygon({
               paths: coordinates,
               strokeColor: `#000000`,
@@ -108,28 +102,21 @@
                 "lng": posLong
               }
             })
-
-          let provinceName = provname.replace(/-/g, " ").toUpperCase()
-          let windowTitle = title.replace(/-/g, " ").toUpperCase()
-
-          let contentString = `<div id="content">
-            <h3 id="firstHeading">${provinceName}</h3>
-            <p>${windowTitle}: <b>${provinfo}</b><p>
-            </div>`;
-          
-          shape.setMap(map);
-
-          shape.addListener('mouseover', function() {
-            infowindow.setPosition({
-              "lat": proLat,
-              "lng": proLong
-            });
-            infowindow.setContent(contentString);
-            infowindow.open(map, shape);
-          }); 
-
-
-
+            let provinceName = provname.replace(/-/g, " ").toUpperCase()
+            let windowTitle = title.replace(/-/g, " ").toUpperCase()
+            let contentString = `<div id="content">
+              <h3 id="firstHeading">${provinceName}</h3>
+              <p>${windowTitle}: <b>${provinfo}</b><p>
+              </div>`;
+            shape.setMap(map);
+            shape.addListener('mouseover', function() {
+              infowindow.setPosition({
+                "lat": proLat,
+                "lng": proLong
+              });
+              infowindow.setContent(contentString);
+              infowindow.open(map, shape);
+            }); 
           }
     } // end of initMap 
   </script>
