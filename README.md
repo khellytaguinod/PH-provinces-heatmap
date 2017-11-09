@@ -16,16 +16,17 @@ SpreadSheet: https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNu
 * Openode account
 
 ## How To Use
-1. Clone the repository  .. github link here
+1. Clone the [repository](https://github.com/khellytaguinod/PH-provinces-heatmap)  
+
 There are two project folder from the repository
 > PH HeatMap Local ( configured to run locally using node js )
 
 > PH HeatMap Openode ( configured to deploy online using the openode module )
 
 2. Choose one folder from the repository
-3. Inside the project folder run npm install  using command/terminal prompt.
-4. Follow this Google documentation “ Step 1 ” to obtain a client_secret.json file.
-5. Put the client_secret.json file inside the selected project folder.
+3. Inside the project folder run `npm install`  using command/terminal prompt.
+4. Follow this [Google documentation](https://developers.google.com/sheets/api/quickstart/nodejs) **Step 1** to obtain a `client_secret.json` file.
+5. Put the `client_secret.json` inside the selected project folder.
 6. Make a duplicate from this [formated google spreadsheet](https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
 
 ## Run & Test Locally
