@@ -5,7 +5,7 @@
 http://ph-provinces-heatmap.openode.io/
 
 ## Getting Started
-
+------
 Github:
  https://github.com/khellytaguinod/PH-provinces-heatmap
 SpreadSheet: https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit#gid=0
@@ -29,12 +29,14 @@ There are two project folder from the repository
 6. Make a duplicate from this [formated google spreadsheet](https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
 
 ## Run & Test Locally
-1. Open index.js and paste in the let sheetID  with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
+------
+1. Open index.js and paste in the ```javascript let sheetID ```  with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
 2. Run node index.js using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
 
  
 ## Run & Deploy Online using Openode
+------
 1. You must have an openode account to deploy and run the web app.
 2. Open app.js and paste in the let sheetID  with the ID from your duplicated spreadsheet. ( need help with the ID? ) 
 3. Run openode deploy using command/terminal prompt.
@@ -44,7 +46,7 @@ There are two project folder from the repository
 7. Wait for the openode to deploy the web app and console log a “ success “ msg.
 8. Log in to openode website and open the app to see how the app work.
 
-## Built with 
+## Built with
 - Express framework Module
 - CORS
 - Openode Module
@@ -52,8 +54,8 @@ There are two project folder from the repository
 
 
 ## Notes & References 
-[Express Documentation](http://expressjs.com/en/starter/installing.html) 
-[CORS Documentation](https://github.com/expressjs/cors) 
-[Openode Documentation](https://openode.io/docs)
-[Google Sheet API](https://developers.google.com/sheets/api/quickstart/nodejs) & [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/)
+- [Express Documentation](http://expressjs.com/en/starter/installing.html) 
+- [CORS Documentation](https://github.com/expressjs/cors) 
+- [Openode Documentation](https://openode.io/docs)
+- [Google Sheet API](https://developers.google.com/sheets/api/quickstart/nodejs) & [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/)
 
