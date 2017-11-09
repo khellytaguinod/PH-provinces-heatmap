@@ -30,7 +30,7 @@ There are two project folder from the repository
 
 ## Run & Test Locally
 ------
-1. Open index.js and paste in the ```javascript let sheetID ```  with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
+1. Open index.js and paste in the ``` let sheetID = "spreadsheetIDhere" ```  with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
 2. Run node index.js using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
 
