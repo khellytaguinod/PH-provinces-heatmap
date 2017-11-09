@@ -1,5 +1,5 @@
 # Heatmap of the Philippines Provinces Population
-###### A webapp that use google map API to visualize heatmap and display the Philippines provinces population data that comes from google spreadsheet
+### A webapp that use google map API to visualize heatmap and display the Philippines provinces population data that comes from google spreadsheet
 
 ## Demo
 http://ph-provinces-heatmap.openode.io/
