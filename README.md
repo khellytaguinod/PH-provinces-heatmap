@@ -26,10 +26,10 @@ There are two project folder from the repository
 3. Inside the project folder run npm install  using command/terminal prompt.
 4. Follow this Google documentation “ Step 1 ” to obtain a client_secret.json file.
 5. Put the client_secret.json file inside the selected project folder.
-6. Make a duplicate from this [formated google spreadsheet] (https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
+6. Make a duplicate from this [formated google spreadsheet](https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit?usp=sharing) 
 
 ## Run & Test Locally
-1. Open index.js and paste in the let sheetID  with the ID from your duplicated spreadsheet. ( [need help with the ID?] (https://developers.google.com/sheets/api/guides/concepts) ) 
+1. Open index.js and paste in the let sheetID  with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
 2. Run node index.js using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
 
@@ -52,8 +52,8 @@ There are two project folder from the repository
 
 
 ## Notes & References 
-[Express Documentation] (http://expressjs.com/en/starter/installing.html) 
-[CORS Documentation] (https://github.com/expressjs/cors) 
-[Openode Documentation] (https://openode.io/docs)
-[Google Sheet API] (https://developers.google.com/sheets/api/quickstart/nodejs) & [Google Maps API] (https://developers.google.com/maps/documentation/javascript/examples/)
+[Express Documentation](http://expressjs.com/en/starter/installing.html) 
+[CORS Documentation](https://github.com/expressjs/cors) 
+[Openode Documentation](https://openode.io/docs)
+[Google Sheet API](https://developers.google.com/sheets/api/quickstart/nodejs) & [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/)
 
