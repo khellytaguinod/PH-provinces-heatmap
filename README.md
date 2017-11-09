@@ -35,6 +35,7 @@ There are two project folder from the repository
 let sheetID = "spreadsheetIDhere"; 
 ``` 
 with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
+
 2. Run `node index.js` using command/terminal prompt.
 3. Open browser and go to http://localhost:3000/ and see how the app work
 
@@ -46,6 +47,7 @@ with the ID from your duplicated spreadsheet. ( [need help with the ID?](https:/
 let sheetID = "spreadsheetIDhere"; 
 ``` 
 with the ID from your duplicated spreadsheet. ( [need help with the ID?](https://developers.google.com/sheets/api/guides/concepts) ) 
+
 3. Run `openode deploy` using command/terminal prompt.
 4. The prompt will ask you to log in.
 5. Log in with your openode credentials.
