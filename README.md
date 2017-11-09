@@ -19,6 +19,7 @@ Openode account
 1. Clone the repository  .. github link here
 There are two project folder from the repository
 > PH HeatMap Local ( configured to run locally using node js )
+
 > PH HeatMap Openode ( configured to deploy online using the openode module )
 
 2. Choose one folder from the repository
