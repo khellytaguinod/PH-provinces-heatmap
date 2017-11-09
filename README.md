@@ -7,6 +7,7 @@ http://ph-provinces-heatmap.openode.io/
 ## Getting Started
 Github:
  https://github.com/khellytaguinod/PH-provinces-heatmap
+
 SpreadSheet: https://docs.google.com/spreadsheets/d/1W5lUi8-h5EYgh3Jt5_8PLifutNuXz5yQzu5uJOovEDA/edit#gid=0
 
 ## Prerequisites
